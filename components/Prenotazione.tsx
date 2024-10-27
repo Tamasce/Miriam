@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import { useGSAP } from '@gsap/react'
 import { animateWithGsap } from '@/data/aniamtion'
 import { BackgroundGradient } from './ui/gradient'
-import Calendario1 from './ui/Calendario2'
+
 import Calendario from './ui/Calendario'
 
 
