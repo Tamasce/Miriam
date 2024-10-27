@@ -105,7 +105,11 @@ export const Calendario = ({ timeScale }: { timeScale: { interval: number; slotC
     }
   })
  
- 
+   function onPopupOpen1(args:any) {
+    if (args.type === 'QuickInfo' || args.type === 'Editor') {
+        args.cancel = true; // Annulla l'apertura del quickPopup e dell'editor
+    }
+}
   return (
     <ScheduleComponent  currentView='WorkWeek' width='100%' height='100%' eventSettings={localData} timeScale={timeScale} 
     popupOpen={onPopupOpen1}>
