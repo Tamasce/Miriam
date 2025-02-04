@@ -3,36 +3,31 @@ export const words =['Ciao!', 'Hello!', 'Hola!', 'Ahoj!','Salut!','Γεια!']
 export const navigation = [
   {
     id: "0",
-    title: "Features",
-    url: "#features",
+    title: "Servizi",
+    url: "#servizi",
   },
   {
     id: "1",
-    title: "Pricing",
-    url: "#pricing",
+    title: "Lavori",
+    url: "#lavori",
   },
   {
     id: "2",
-    title: "How to use",
-    url: "#how-to-use",
+    title: "Certificazioni",
+    url: "#certificazioni",
   },
   {
     id: "3",
-    title: "Roadmap",
-    url: "#roadmap",
+    title: "Calendario",
+    url: "#prenotazioni",
   },
   {
     id: "4",
-    title: "New account",
-    url: "#signup",
+    title: "Contatti",
+    url: "#contatti",
     onlyMobile: true,
   },
-  {
-    id: "5",
-    title: "Sign in",
-    url: "#login",
-    onlyMobile: true,
-  },
+  
 ];
 export const images = ['/lavori1.jpg','/lavori2.jpg','/lavori3.jpg','/lavori4.jpg','/lavori6.jpg','/lavori7.jpg','/lavori10.jpg','/lavori12.jpg','/lavori9.jpg','/lavori11.jpg','/lavori5.jpg','/lavori8.jpeg']
 
